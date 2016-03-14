@@ -1,5 +1,5 @@
 # PCAF
-Scalable, Hi Precision k-NN Search using Principal Component Analysis based Filtering
+PCAF: Scalable, High Precision k-NN Search using Principal Component Analysis based Filtering
 
 This git stores the raw data of the PCAF experimental results.
 This PCAF project is conducted by Huan FENG, and the achievement has been submitted to ICPP 2016.

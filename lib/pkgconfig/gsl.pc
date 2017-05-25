@@ -1,0 +1,11 @@
+prefix=/home/rtang/KNN/CPU
+exec_prefix=/home/rtang/KNN/CPU
+libdir=/home/rtang/KNN/CPU/lib
+includedir=/home/rtang/KNN/CPU/include
+GSL_CBLAS_LIB=-lgslcblas
+
+Name: GSL
+Description: GNU Scientific Library
+Version: 1.16
+Libs: -L/home/rtang/KNN/CPU/lib -lgsl ${GSL_CBLAS_LIB} -lm -lm 
+Cflags: -I/home/rtang/KNN/CPU/include

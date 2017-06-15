@@ -119,11 +119,11 @@ int main(int argc, char** argv) {
     default:
         break;
     }
-	TIMER_READ(runtime[1]);
     K_NN::ALG = alg;
+	TIMER_READ(runtime[1]);
     imgs[0]->buildIndex();
-    TIMER_READ(runtime[2]);
-    printf("DONE BUILD: %f s\n", TIMER_DIFF_SECONDS(runtime[1], runtime[2]));
+	TIMER_READ(runtime[2]);
+	printf("DONE BUILD: %f s\n", TIMER_DIFF_SECONDS(runtime[1], runtime[2]));
 
 	printf("-- SEARCH USING MAX THREADS WITH PRECISION & FILTERING STATISTICS ......\n");
     //prepare to search...
@@ -171,7 +171,8 @@ int main(int argc, char** argv) {
 		printf("precision: %f \%\n", precision);
 		printf("Time cost: %f s\n", TIMER_DIFF_SECONDS(runtime[2], runtime[3]));
     }
-    uint64_t start, end, time = 0;
+    
+	uint64_t start, end, time = 0;
     int skip = SKIP, i;
 	printf("-- SEARCH USING INCREASING NUMBER OF THREADS STARTING FROM 1 ......\n");
     printf("NOTE: please set appropriate SKIP and MAX_THREADS for searching.\n");

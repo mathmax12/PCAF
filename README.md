@@ -37,7 +37,7 @@ PCAF provides three ways to set the dimensionality of PCA space.
 
 ```
 Params:
-	TYPE	0: read saved index
+	TYPE	0: read saved index (read svd dataset and svd matrix from index folder, which are saved before)
 			1: appointed dims
 			2: appointed percentage of dims
 			3: appointed variation

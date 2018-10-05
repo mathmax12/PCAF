@@ -111,3 +111,5 @@ This PCAF project is conducted by Huan FENG, and the achievement has been submit
 The raw data belongs to Tsinghua University and University of Otago. The reason for its existence on github is for reviewers' convenience to check.
 
 Please contact [Huan FENG](mailto:fenghuan517@gmail.com) if there is any questions.
+### Changing
+The svd file can be changed to decide to read data from file or use original data to caculate svd data.
